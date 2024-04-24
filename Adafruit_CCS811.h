@@ -7,7 +7,7 @@
 #include "WProgram.h"
 #endif
 
-#include <Adafruit_I2CDevice.h>
+#include "../Adafruit_BusIO/Adafruit_I2CDevice.h"
 
 /*=========================================================================
     I2C ADDRESS/BITS
@@ -255,3 +255,5 @@ when ALG_RESULT_DATA is read on the I²C interface.
 };
 
 #endif
+
+#include "Adafruit_CCS811.ipp"

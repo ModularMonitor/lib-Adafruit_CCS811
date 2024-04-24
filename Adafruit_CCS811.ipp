@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Adafruit_CCS811.h"
 
 Adafruit_CCS811::~Adafruit_CCS811(void) {
